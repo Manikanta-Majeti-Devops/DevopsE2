@@ -22,7 +22,7 @@ public class MessageServiceTest {
 	@Test
 	public void testMessage2() {
 		MessageService ms2 = new MessageService();
-		System.out.println("hello world");
+		System.out.println("hello world again");
 		Assertions.assertEquals(ms2.sayHello(), "hello world");
 	}
 	
