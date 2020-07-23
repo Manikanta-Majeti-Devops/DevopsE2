@@ -11,30 +11,30 @@ import com.CalculatorService;
 @SpringBootTest
 public class TestCalcService {
 
-	CalculatorService calcService = new CalculatorService();
-
-        @Test
-        public void testSum() {
-               
-                Assertions.assertEquals(30,calcService.sum());
-        }
-
-        @Test
-        public void testMultiply() {
-                
-                Assertions.assertEquals(200,calcService.multiply());
-        }
-
-	@Test
-	public void testSubtraction() {
-		Assertions.assertEquals(10,calcService.subtraction());
-	}
-
-	@Test
-	public void testDivision() {
-		Assertions.assertEquals(10,calcService.division());
-	}
-
+//	CalculatorService calcService = new CalculatorService();
+//
+//       @Test
+//        public void testSum() {
+//               
+//                Assertions.assertEquals(30,calcService.sum());
+//        }
+//
+//        @Test
+//        public void testMultiply() {
+//                
+//                Assertions.assertEquals(200,calcService.multiply());
+//        }
+//
+//	@Test
+//	public void testSubtraction() {
+//		Assertions.assertEquals(10,calcService.subtraction());
+//	}
+//
+//	@Test
+//	public void testDivision() {
+//		Assertions.assertEquals(10,calcService.division());
+//	}
+//
 //	@Test
 //	public void testSumneg() {
 //		Assertions.assertEquals(40,calcService.sum());
