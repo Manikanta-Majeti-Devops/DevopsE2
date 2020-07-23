@@ -1,8 +1,10 @@
 FROM openjdk:8-jdk-alpine
  
-EXPOSE 9999
+VOLUME /tmp
 
-ARG JAR_FILE=/target/*.jar
+EXPOSE 8090
+
+ARG JAR_FILE=target/*.jar
 
 COPY ${JAR_FILE} app.jar
 
@@ -11,4 +13,5 @@ RUN echo "Creation of your docker image is in progress, please hold on for a mom
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 MAINTAINER "mmk4mmk.mrani@gmail.com"
+
 
