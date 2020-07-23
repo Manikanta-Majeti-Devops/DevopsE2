@@ -66,7 +66,9 @@ node {
 
             sh "cf login -a https://api.run.pivotal.io -u mmk4mmk.mrani@gmail.com -p ${pcfpword} -o devopse2"
         }
+      sh 'cf push sbt_jar -p target/*.jar'
+    //    sh 'cf push sbt_runtime_docker --docker-image mmk4mmk/sbt_runtime_doc:1.0 --no-start'
         
-        sh 'cf push sbt_runtime_docker --docker-image mmk4mmk/sbt_runtime_doc:1.0 --no-start'
+        
     }
 }
