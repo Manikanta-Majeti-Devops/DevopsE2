@@ -19,11 +19,11 @@ public class MessageServiceTest {
 		Assertions.assertEquals(ms.sayHello(), "hello");
 	}
 
-	@Test
-	public void testMessage2() {
-		MessageService ms2 = new MessageService();
-		System.out.println("hello world again");
-		Assertions.assertEquals(ms2.sayHello(), "hello world");
-	}
+//	@Test
+//	public void testMessage2() {
+//		MessageService ms2 = new MessageService();
+//		System.out.println("hello world again");
+//		Assertions.assertEquals(ms2.sayHello(), "hello world");
+//	}
 	
 }

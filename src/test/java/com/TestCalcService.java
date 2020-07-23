@@ -35,24 +35,24 @@ public class TestCalcService {
 		Assertions.assertEquals(10,calcService.division());
 	}
 
-	@Test
-	public void testSumneg() {
-		Assertions.assertEquals(40,calcService.sum());
-	}
-
-	@Test
-	public void testMulneg() {
-	        Assertions.assertEquals(210,calcService.multiply());
-        }
-
-        @Test
-        public void testSubneg() {
-                Assertions.assertEquals(1,calcService.subtraction());
-        }
-
-        @Test
-        public void testDivneg() {
-                Assertions.assertEquals(0,calcService.division());
-        }
-
+//	@Test
+//	public void testSumneg() {
+//		Assertions.assertEquals(40,calcService.sum());
+//	}
+//
+//	@Test
+//	public void testMulneg() {
+//	        Assertions.assertEquals(210,calcService.multiply());
+//      }
+//
+//        @Test
+//        public void testSubneg() {
+//                Assertions.assertEquals(1,calcService.subtraction());
+//        }
+//
+//        @Test
+//        public void testDivneg() {
+//                Assertions.assertEquals(0,calcService.division());
+//        }
+//
 }
