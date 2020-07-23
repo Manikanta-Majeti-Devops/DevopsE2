@@ -1,0 +1,40 @@
+// Jenkins File created for local docker and jenkins provided maven 
+node {
+        stage('git checkout') {
+            git credentialsId: 'GithubID', url: 'https://github.com/Manikanta-Majeti-Devops/DevopsE2.git'  
+    }
+    
+    stage('code build & test') {
+        // sh 'mvn clean package'
+        
+        // use maven from runtime
+        
+        def mavenHome = tool name: 'maven-runtime' , type: 'maven'
+        
+        // using a variable and mentioning in double-quotes -- interpolation 
+        def mavenCMD = "${mavenHome}/bin/mvn" 
+        
+        sh "${mavenCMD} clean package"
+    }
+    
+    stage('docker build'){
+        
+        // use docker available on machine 
+        
+        sh 'sudo docker build -t mmk4mmk/sbt_loc_doc:1.0 .'
+    }
+    
+    stage('docker run'){
+        
+        sh 'sudo docker run -p 8090:8080 -d mmk4mmk/sbt_loc_doc:1.0'
+    }
+    
+    stage('docker push'){
+         //docker push 
+        withCredentials([string(credentialsId: 'dockerhub_pwd', variable: 'dockerHubpassword')]) {
+                // some block
+                sh "sudo docker login -u mmk4mmk -p ${dockerHubpassword}"
+            }
+        sh 'sudo docker push mmk4mmk/sbt_loc_doc:1.0'
+    }
+}
