@@ -1,0 +1,26 @@
+node {
+        stage('git checkout') {
+            git credentialsId: 'GithubID', url: 'https://github.com/Manikanta-Majeti-Devops/DevopsE2.git'  
+    }
+    
+    stage('code build & test') {
+        // sh 'mvn clean package'
+        
+        // use maven from runtime
+        
+        def mavenHome = tool name: 'maven-runtime' , type: 'maven'
+        
+        // using a variable and mentioning in double-quotes -- interpolation 
+        def mavenCMD = "${mavenHome}/bin/mvn" 
+        
+        sh "${mavenCMD} clean package"
+    }
+    
+    stage('docker build'){
+        
+     //  withDockerContainer(args: '-v /var/run/docker.sock:/var/run/docker.sock', toolName: 'docker-runtime') {
+              docker.build('mmk4mmk/springboot:1.0')
+                    
+     //   }
+    }
+}
