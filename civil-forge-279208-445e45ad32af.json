@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "civil-forge-279208",
+  "private_key_id": "445e45ad32af50530d3ca5bbe1fb0f05b16f16c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNsGSGTN5zOJZ4\ngRfB50Ed+6DMIWy+2EPVmivMlG75LVDdtjbF1yZipoyaKB4dxWl5hInebrvIEdC1\nc/88gvJ3Z73cpYmW566AEAitOuHSqLKjgzgqcPz1PbgYKmDMuImXi+oTNZ3rvVJ2\nOghOGdsHQzXUgXj02eG38zgbc6FztWFbCHeWVyTl4xDMWLGLCW4wNXV3I/AsCCMR\nZvWXoEzszGySHoQL2yUnHxzZygamSf3zDiZT+jMlmfGYMwe6S+NBWCmD5DJiOeCr\n8vZ6Xe66Fe7B5JriOyebj6qw1d57dN+UGnRCOonGADw27/v5KtyTTUoGmg7TgxIZ\n+4+JNJnxAgMBAAECggEAEVjcOYQNH2w5Ky4+qdtONMWj1jjGxOz/V5SaN2BDYF96\nhPWuS+QtIr/HduQwRLQsBOlxKTcZ6NyGchniKkvO6tQZ1pyIF0KF3IYS/UJ3M37d\nG1414+/F3bcCqi2/c989DMYU4TbckTpVKeRouTwuqpT4BWqVSsJ/agtTWDlZzKTA\n4h5ybw+Wfg8Q8li10bk0Vrls9Oq3eALw2MMMM0v7xO+FbkquDpRlCwaQMqLKIwsU\nYWVhYLRrMzpUKmc1dhW3rGVjvKoXnqsI8sUDeoWiOild+EWLE3jXtMpHMewSdSWL\nH2HRrMaHVFTJy9rSiDVX750ie4eOltTkS4ktQycfIwKBgQDtuIVz3HwBScVKSEm3\nNGzqK5RyrrkckkN6rqe4//5BfmGTNRARWHKDNdKc9ZCV+jxQH5liE2FJh3+z9Wx3\n8XeWMzTJsoMbE7ZbfguPU1yHKq3hb6TPfb4pyvqSnkdx82T7qybTWf8jewmzBAPg\niMXcx1f7HGXxLlHT8ShytjXWXwKBgQDdgVVvvmzHiH+ciKjlXh8OblmXAuJSOEqM\n5x/+dT33ePrE1qPrQkJigAjARyRWhMRRIcviIV+1SdP1y6/RmDgpyZwXsU4ecV4b\nPSy8OBFnMvom467Wi+JkwVJgI8IiZjRcItW0kG/jD55CFqXvWBl3KCIDzAq3+EsH\nEbLQ6U1RrwKBgE24vZEi7jwxlVpzBf7rGgz50KAqNgV8YKmUvuuCbuuU2WwatjUl\nmNMDXufIdcxDM0LzAeAJ/A3hSkRZImyYuwOVnFWxkqHgsQd6z2a914utzYneSaE5\nOFpLrd8P9sXv0P1jeN8zFnLQQFySHH5l2WMUndRQ9ZeEEGbd+t5+al27AoGAbR8w\nFdK8CDiIlXcFramGpzdZz3lOQa8VmwCp1FOx6V6iO6J6MoX76kalCQSDNFRH2qhJ\npudGHSt3zllADoNs97koustQbtLux4CFr1v3xt1oOwxjr7JOH9DVYiN7mjK7jMBk\ng4W8eSHSl0BNEvJV6UvOJgy5IxSg8aSYcS7eNmUCgYB0G4nVQ6TT4dB9PoL/6KYN\n1ppW9zvaH576k2afiJ7xGT27l99Gxk1UqMNP+ymA/2MdR1t3ZK57eseztFdLNCR2\nL+CzLn0pWAh3tGsGKqdKjKOw7kmAIC2Oksaaz9TbLH8vsKRbW8Bi5NfnocjGUvdg\nhNOXEV305NXWnsJfkNyRzA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ansible-gcp-case-study@civil-forge-279208.iam.gserviceaccount.com",
+  "client_id": "104199143321798922045",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ansible-gcp-case-study%40civil-forge-279208.iam.gserviceaccount.com"
+}
