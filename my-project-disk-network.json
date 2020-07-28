@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "perfect-aura-284615",
+  "private_key_id": "65ed59676d07a758bcec4ee83ce3cefaa155f6ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDithKBRVG3pIuC\nJTXJJKsj++v213XtmJapvRiiL+0B8ITHH/hq/9Baq8Og+MP7WUPAxzFIDDmB7kJd\nNTgQfLL+8gtxFksTEqW7Hewt2AzghoZPJsYI6nK97l9qcq61Q9698PV7q4ie02xv\nRVG3iyLyBGhs6Ntd6W6R3zHZlaMf8qxnX4+SvN7zB+K0Yq3OgjkxTr5BPXtWVlq2\nE8oqLZdhHVxGEgOqu/inR4O3tBxGVRyrtM0uFf3D3JcN3hzwK7V3Kra3eC+V6NRv\nj1FzB3MsqEskCSx12DuA7/MCL7WkUpQ+ZIDk09riPnKtfeWTn4XeZcSiWBeqVlTE\nXypqtD33AgMBAAECggEAHWvVgPM3BKcU98HOdhkNILFb0P/rLPdlbge9P6cKkfrd\nsF3ExlYGew3ZaHWAMYlHEqiHC7uSZvs9n4z9hp44OH++3mEvQv1jhqH+eYCVQzoS\nCgmVH6kVVPKvbUgOxjVVnb68jN0Y8MutQc90KGalFVVfG+soNMrLb6DQflU+AzIj\ne1N3/uxE01Ol/CbkjFq/k2W5+lnkBXOzTMqkLnlB82ghQ2uWaMAZiPiSPq/8BPEU\nX3BuKLtzJZplIoKVjVps8rZbPpXeXCIUWX3PPoG9EALJ3AtY5d/Ct1p+1uIPM/4I\n0uQSSSiTAvZTiadPWSRoRzwM77N2ozrvjwcYxi1nyQKBgQD6wfsCvplZC4UR4aVG\nvws+wcLWr868oR/G1kKHDKMdPgUddlkji1Nx0RDGWcmEgn8xxsdRp8us+fSkcVQl\neWxLJCjtM7owez1IBTIlRTmAzlrfyx/9Lvu5DQLYQK08aoGUPqy6dl6H197n7M8r\n65PZm+PqyBOYiTwd8BgrPz0SWwKBgQDnc2X0gtxni7EhUQNGCIhogb90V9r5Hxz4\nVUToLhUqM6Wx5aOwtIISrdEGiDMsMKTYXf7cvhPHM0UGTLjrslilIqhFcBVg1rDz\ns4g5M+Kbt9qup+MLyEVzR26eZtJTep1LOIy6FWWTtYqZl7Dkcec1jnCCHmbcTD+a\nys5kavDdlQKBgQDukEpMjCS8cJdDMdfZ/LuoExNYyJ35G5ltxD462az9jxmys/uO\nM2lJ6Ur6SkXMSZLVOnY6m1bM1GkJYcBafrCmtFozgXjr0vO0Zy0UBE3221vdehSO\n/XoCzfwc3TtzNSjebtpJ839v4dJx9/wJnvBkoUku/vaVskp9eQSlcF6b7QKBgCXr\nOQvrGJL6RuXPcPrbUQXWI/i6oAxqdYOV7LkhO6RzW7Uei0fa+uh2g6VPURrvSUKN\ne8DMf08GbkuO7EjpKi6709e0ejwoUEtM4YeFoZ2jbHdq1/7JK9+sF0pqTBETKIv3\nUs71zHN7rZ5mRLvYkWmr0XDv7CgxccY5bcDz6ExVAoGBAPHP28ua2PCAEj3z8oNA\nVXjHSGfbGC6X+kzABsLKiFTU4YSvMO7B39541JBeRV+cFPUS1sOQNGP5DZe19jRF\nOji+hdP9DjtcSGdln2q2XnmGXR5iPZnLiy4/R0IeFjK4wzzgysJUdB76RnppbI/U\n+XnLfRKr4VkGNo0ogr56DOGC\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-project-disk-network@perfect-aura-284615.iam.gserviceaccount.com",
+  "client_id": "105281621322276739437",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-project-disk-network%40perfect-aura-284615.iam.gserviceaccount.com"
+}
