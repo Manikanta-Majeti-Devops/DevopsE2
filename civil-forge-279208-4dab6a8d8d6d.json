@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "civil-forge-279208",
+  "private_key_id": "4dab6a8d8d6d872a64e799454b9b810bb48ce5c9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsiUROCVxdpRR7\nibsblmwlU+tH36FFrL97UBrS1ABhZw+inin1lIMj6UCH3BUCSfckKxPXqJ2F0N1L\np61QaOoETmFJd7Gm47Oj6G8BJIuNHmeCP7s5qAMxNNJCnbDFsGUBMj3iVWVRybfQ\np7syp8Kj+PPyTfALjxk/Tb0z5Ev3q7WQKhfrwc/RS6TueF5sDwdMRhxQO+g4NNhg\nXrE+l6uZvQ09DdjgDzXflw291E12Vd9itaxodEtE3IkO2gHStpplOX07+9GdwyO8\nVnVVngD0dtsC3BYsuJktvgr5zA/kr0LrQJVB7UiF2K1PSFfiIl3DBJ1VOPJXDTRM\nG1ulX2E3AgMBAAECggEAHj/Kq+vUN87Tcn1JQqLyvvChlW5Ntgt9Xr9ClKf6kRki\nkp4sORQakdc5KxiYzlftbnfm+K5lP6rIwZTaO/jI3oxnXhwQF3RgcGI14/tmRA2K\nlDlcN9WPCbd7DZbcASzV6InIc8AJDXfSNFDT7yOeamUhT9/+L+icwo58l3Z1Iyy7\n192XkbEFIl5n/EaOcAa6dqastXijrziqqXUX9PGpAG26PQh7wZINND2BbEB/1wKv\n4x0enBYfBr8060LDdLZNMeAGvTQM9Pb91BE6hII/4/DLtlrjoLIB6PDDhB6q1I6g\nX4b1G7UkU2mGSc4SCPUI70493cYHM144ecaSYpV3IQKBgQDcShr7dMXWYEVrsQSB\nIa3mDtxJ5dw0HhMFircwjMKcOJ6uOuY8Xd6KoGKO3ZTGxD3Awm0l4sZCj6GSkmXO\nyIyoJ4PNvDtVH0TjROQXxfAmSYWc82TGe8sduyGyETEy+6fAb9Ufxpl0wIi4BEe1\nkswRC2m4VbrZ4FMNeHJGvD/xrwKBgQDIgW0aExEIeNUnlDMljf8KkosIpHNfnlXU\nCPLpgAWtQVSs7YHUKdS5MBVPjuHnC98yJeXUhU6a76TYk111InRorcvzvQFGECmd\nIPnQ+pAIyJq2tF77TYV27QxF5/ocsZBKJ3uTXfTeOukp7xDyXLnZp4l9ZQDysJ/G\nfLMarYES+QKBgDkDrQwb4wBjFlSTEjlhwCJlAjrWFTIf/ohWqKcWJ2BLfzZU5DYH\njYuPizKywsjXDayQJbPCh9G+XvESlur4GP+EiqZ661hSqX+w2uAUSN1/9ebzT8fX\nTnC5eDUgIf2yCG7UAvMgcaM4GaqW4QBrqAlZTNl6xsuRNa2s2NbZ7irdAoGBALpj\nroNttAjXIvd/CijgHnW6kqq/DU2XCBxrET1FOIG92LREucr78/cPHtBtd8zruVmJ\n52QvZEodenWmUFvCYsqovY7gZZ23Cqg57mF5e4neygwMEru0bdyHMkCODHC+E+8L\nUxJEZoxr4TKNPYi/8DjISMSbr0zsKis+4tRq9DEpAoGBALEFXnwbUkhhAbwYkPpJ\n0gaiKzaLZGBfxTOWJ3wzREax0VQDLhh8e/82UsSjlDlOcYQhHuGl7qaFnSZp362Z\nPZq8CN01Lqu1mQ6VcqDfFOsYxeibr7SXNePzo5gOS2WwDP7qQMwXFGprfp0NZMYs\n2eX2wvPPqqVW6FrywnsgxKKL\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-ansible@civil-forge-279208.iam.gserviceaccount.com",
+  "client_id": "111230515684331754537",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-ansible%40civil-forge-279208.iam.gserviceaccount.com"
+}
