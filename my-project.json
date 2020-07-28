@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "perfect-aura-284615",
+  "private_key_id": "ed372abcdbf0e81fd87bebcc9cc91094722a51cf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDG0HfPpEk0VnQ3\nePB/Nuh2mef7W76L+X09SOKElyelKwB/c33r4v0pL9S7SaCLsS5cQudVfH5sgJDH\nyEXp8ZfLRkukZkNqDe24pRh3gOG0SdhD0s8RFtMKUVGGR8d9MO+zUSpkFeivuv57\n46CvbqaYAXcfAwrGJt2eeZ0ovLsUYm+QfdkoTY5Dci/Zdu//oTX/+1r3OubSB5LX\nH23gIbY+o9pwHyzhkgC5YlzAiBaLchmAXrAlOq6e6AETKVFtrmMx8dFcYwBIXLtK\nO4Owk/Fl3uIj3sjmuXxtoq0iwx6krVN9mDxE2Ju8OuJbveSmSSCrosn2SI9ALSeO\nwFPEBjpDAgMBAAECgf92n6sYzDs51ZOPE0llNN+9YjEwcHr2vj9zJV+AbepguH49\nyTY0a/9+Rvg7HQEeyqxwPlfynhB4VHa+7AY0TtWBgOi3PPihVpLptC7B8XTOzP+7\n/zCjj08+Z66jiitFJHDxyNRQ2PrWARt9+v2DnOXuDVchP+iYV4nzhSjivE/p4cmt\njKyxaOrAR++d4W6H9iMvP7WV6ZO8ZzEME24GRCDT0B/+B/wL8MjOSxlbD11ST9Nu\nlW7mtDnobl4bsuKJRBAXcrrgQSQmMuBFJ/Gb/iSszhj5kDq5Aiin6LzFokpXFaef\nl6n5xZoFZAldZymH0WNvZqkXgk5K8s3Yp9uTbtECgYEA6D9FTztcTGBI1UUEidW+\nVKsDsq946ai7blVlDbJahswvkXFoFO6nDzZ0yyv8VjxPywZb844DzoN6bFEjstE2\nAq6EjrWKGl3XJNRkjgL6SbKRWhNXSiXxAnO8rxeH1TsZCngFpKncWJ66WSxO6YOm\nhIZyVjWlxfKtLDvS3zSfW5sCgYEA2yXaqbYqZHkUxWSk6X5RyW+r8rNqm5C2z/P2\nEJnxJMzx+oZLDX2FL/KlagNNc5hoQ3jOIYLQI0CaDCreOWlm7Y5cnMXvLzzvPAFR\nX45hwiVHm8vqD7OFaiCyre1K09kFOyrfRhqgABUpESUxpKPdH9n8oCcJoYWfj50i\nQXENqnkCgYAZZQGxHi6Dc2vDVh6e6646F9D5stInynlkIRZBnyTi5GS3JI1a7JV7\nxlqS9KZMz59x9aoMQZUM+bdjLKQYo2Oie26nJBaLt4MU1dyA4rZ3ZH0cOk0rIGbv\n+7O/+XSyzhl42ZLUZHZhgkmiAoRGaEzG5OSPpKIRuO1SjuAJ4/kgzQKBgFd9QVLH\nuxzpifVUPNJK7/PvdUIrhsAcgh97Uh1GmBMNDv3pZ0U3e1itEoTEVMN1cQqezAxs\n4RNx0w5Qfu+EuObWEvszuk2tkgTuscHoYfbUU0ZLnmIuVXENJMhzF5CD76azcvfV\n4VKnIAIMS0ljcgApUsXNT/cAFbeMEAT4UXBhAoGBAJ7mqpZnWjQtOuJVcC9ZkRwU\n8XadpWE8UozJC91xXEttZdouCUBBervTv7nxyVuuFrJYeGxR7M1dPj3PEr+QFw4G\n1savYIOpFxbsojlwBDFiNyRY/vDbK1dh1BiEpzCQ97i8L0ltfezW08Ln9JH6RIcW\nvsgsf0SbgSoGqFbk2OKS\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-ansible-my-project@perfect-aura-284615.iam.gserviceaccount.com",
+  "client_id": "110497393790848311343",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-ansible-my-project%40perfect-aura-284615.iam.gserviceaccount.com"
+}
