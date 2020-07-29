@@ -59,6 +59,12 @@
                  - name: 'External NAT'
                    nat_ip: "{{ address }}"
                    type: 'ONE_TO_ONE_NAT'
+         tags:
+                 items:
+                         - http-server
+                         - https-server
+                         - docker
+                         - docker1
          zone: "{{ zone }}"
          project: "{{ gcp_project }}"
          auth_kind: "{{ gcp_cred_kind }}"
@@ -66,12 +72,6 @@
          scopes:
            - https://www.googleapis.com/auth/compute
      register: instance
-   - name: Add tags to instance
-     gce_tag:
-         instance_name: "{{ instance }}"
-         tags: http-server,https-server,docker,docker1
-         zone: "{{ zone }}"
-         state: present
 
    - name: Wait for SSH to come up
      wait_for: host={{ address.address }} port=22 delay=10 timeout=60
