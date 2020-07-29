@@ -47,7 +47,7 @@
    - name: create a instance
      gcp_compute_instance:
          state: present
-         name: test-vm
+         name: test-vm2
          machine_type: n1-standard-1
          disks:
            - auto_delete: true
