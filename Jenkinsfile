@@ -20,11 +20,14 @@ node {
             git credentialsId: 'GithubID', url: 'https://github.com/Manikanta-Majeti-Devops/DevopsE2.git'  
         }
     
-        stage('code build & test') {
+        stage('code build, test & sonarqube analysis ') {
             // sh 'mvn clean package'
-            sh "${mavenCMD} clean package"
+            //sh "${mavenCMD} clean package"
+            withSonarQubeEnv('sonar-webhook') {
+                 sh "${mavenCMD} clean package sonar:sonar"
+              }
         }
-    
+        
         stage('docker build'){
         
             //docker build -t mmk4mmk/springboot:1.0 with Build_number
