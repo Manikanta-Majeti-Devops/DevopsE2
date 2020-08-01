@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-        public static final Logger log = LoggerFactory.getLogger(Application.class);
+    //    public static final Logger log = LoggerFactory.getLogger(Application.class);
 
         public static void main(String[] args) {
                 log.info("Main method has been invoked");
