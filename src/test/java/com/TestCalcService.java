@@ -42,4 +42,22 @@ public class TestCalcService {
          public void testCube() {
                 Assertions.assertEquals(8,calcService.cube());
           }
+	
+	 @Test
+         public void testSquareroot() {
+                Assertions.assertEquals(2,calcService.squareroot());
+          }
+	
+	 @Test
+         public void testCuberoot() {
+                Assertions.assertEquals(4,calcService.cuberoot());
+          }
+	
+	@Test
+         public void testAplusBSquare() {
+                Assertions.assertEquals(25,calcService.aplusbsquare());
+          }
+	
+	
+	
 }
