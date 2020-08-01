@@ -26,4 +26,15 @@ public class CalculatorService {
 		return 20/2;
 	}
 	
+	@GetMapping("/square")
+	public int square() {
+		return 2*2;
+	}
+	
+	@GetMapping("/cube")
+	public int cube() {
+		return 2*2*2;
+	}
+	
+
 }
