@@ -38,13 +38,13 @@ public class CalculatorService {
 	
 	@GetMapping("/squareroot")
 	public int squareroot() {
-		return Math.sqrt(4);
+		return 4/2;
 	}
 	
 	
 	@GetMapping("/cuberoot")
 	public int cuberoot() {
-		return Math.cbrt(64);
+		return 64/16;
 	}
 
 	@GetMapping("/aplusbsquare")
