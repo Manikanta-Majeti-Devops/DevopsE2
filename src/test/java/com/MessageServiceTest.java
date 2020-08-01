@@ -15,6 +15,6 @@ public class MessageServiceTest {
 	public void testMessage() {
 		MessageService ms = new MessageService();
 		System.out.println("hello");
-		Assertions.assertEquals(ms.sayHello(), "hello");
+		Assertions.assertEquals("hello", ms.sayHello());
 	}
 }
