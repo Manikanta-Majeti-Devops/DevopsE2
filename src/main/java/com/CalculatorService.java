@@ -36,5 +36,19 @@ public class CalculatorService {
 		return 2*2*2;
 	}
 	
+	@GetMapping("/squareroot")
+	public int squareroot() {
+		return Math.sqrt(4);
+	}
+	
+	
+	@GetMapping("/cuberoot")
+	public int cuberoot() {
+		return Math.cbrt(64);
+	}
 
+	@GetMapping("/aplusbsquare")
+	public int aplusbsquare() {
+		return 2*2 + 3*3 + 2*2*3;
+	}
 }
