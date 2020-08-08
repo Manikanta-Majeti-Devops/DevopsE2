@@ -5,7 +5,7 @@
   vars:
       gcp_project: "66894324214"
       gcp_cred_kind: serviceaccount
-      gcp_cred_file: /etc/ansible/serv-accounts/DevopsE2/gcp-ansible-project.json
+      gcp_cred_file: /etc/ansible/serv-accounts
       zone: "us-central1-a"
       region: "us-central1"
 
